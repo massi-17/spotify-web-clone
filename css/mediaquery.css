@@ -1,0 +1,129 @@
+/* MD */
+@media screen and (max-width: 878px) {
+    .cover-list {
+        gap: 2%;
+    }
+
+    .cover-list__item {
+        width: calc(94% / 4);
+    }
+
+    .card__title {
+        font-size: 12px;
+    }
+
+    #toolbar .add {
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    #toolbar .player {
+        
+        min-width: calc(122px + 15%)
+    }
+
+    #toolbar .volume {
+        width: 90px;
+    }
+   
+}
+
+/* S */
+@media screen and (max-width: 639px) {
+    .cover-list {
+        gap: 4%;
+    }
+
+    .cover-list__item {
+        width: calc(96% / 2);
+    }
+
+    #toolbar .preview {
+        min-width: 180px;
+    }
+
+    #toolbar .player {
+        
+        min-width: calc(100px + 18%)
+    }
+
+    #toolbar .volume {
+        width: 40px;
+    }
+    #toolbar .setting {
+        column-gap: 3px;
+        padding: 0 3px;
+        min-width: 120px;
+    }
+    
+}
+
+/* XS */
+@media screen and (max-width: 552px) {
+    .sidebar {
+        width: 50px;
+        padding: 5px 10px;
+    }
+
+    
+    
+    
+    .playlist {
+        display: none;
+
+    }
+
+    .upgrade-banner {
+        width: calc(100% - 50px);
+    }
+
+    .logo-big {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+        width: 30px;
+        margin-bottom: 15px;
+    }
+
+    .sidebar-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .downloadapp {
+        display: none;
+    }
+
+    .utente svg {
+        margin-bottom: 5px;
+    }
+
+    .sidebar-down .installapp {
+        border: 0;
+        padding: 0;
+    }
+
+    .nickname {
+        display: none;
+    }
+
+    .menulinktext {
+        display: none;
+    }
+
+    .menuflex {
+        justify-content: center;
+    }
+   
+}
+  
+  
+
+  
+  
